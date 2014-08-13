@@ -1,9 +1,55 @@
-PCBNEW-LibModule-V1  Wednesday, 13 August 2014 13:00:48
+PCBNEW-LibModule-V1  Wednesday, 13 August 2014 21:02:54
 # encoding utf-8
 Units mm
 $INDEX
+MC33269
 RGBRotaryEncoder
 $EndINDEX
+$MODULE MC33269
+Po 0 0 0 15 53EB29B8 00000000 ~~
+Li MC33269
+Sc 0
+AR 
+Op 0 0 0
+T0 -4 -7.5 1 1 0 0.15 N V 21 N "MC33269"
+T1 -4 3.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -3 -3 -1.5 -3 0.15 21
+DS -1.5 -3 -1.5 -2 0.15 21
+DS -1.5 -2 -3 -2 0.15 21
+DS -3 -0.5 1 -0.5 0.15 21
+DS 1 -0.5 1 0.5 0.15 21
+DS 1 0.5 -3 0.5 0.15 21
+DS -3 -5 1 -5 0.15 21
+DS 1 -5 1 -4 0.15 21
+DS 1 -4 -3 -4 0.15 21
+DS -11 -6 -12 -5 0.15 21
+DS -12 -5 -12 1 0.15 21
+DS -12 1 -11 2 0.15 21
+DS -11 2 -3 2 0.15 21
+DS -3 2 -3 -6 0.15 21
+DS -3 -6 -11 -6 0.15 21
+$PAD
+Sh "1" R 3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" R 6.2 5.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7.2 -2.2
+$EndPAD
+$PAD
+Sh "3" R 3 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -4.5
+$EndPAD
+$EndMODULE MC33269
 $MODULE RGBRotaryEncoder
 Po 0 0 0 15 53E97CCD 00000000 ~~
 Li RGBRotaryEncoder
