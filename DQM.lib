@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Thursday, 14 August 2014 13:24:45
+EESchema-LIBRARY Version 2.3  Date: Friday, 15 August 2014 15:30:35
 #encoding utf-8
 #
 # FERRITE
@@ -14,8 +14,8 @@ S -150 -50 -150 -150 0 1 0 N
 S -150 -50 150 -150 0 1 0 N
 S 150 -150 150 -50 0 1 0 N
 S 150 -50 -150 -50 0 1 0 N
-X ~ ~ -450 -100 300 R 50 50 1 1 I
-X ~ ~ 450 -100 300 L 50 50 1 1 I
+X 1 1 -450 -100 300 R 50 50 1 1 I
+X ~ 2 450 -100 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
