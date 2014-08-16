@@ -7,6 +7,9 @@ MC33269
 RGBRotaryEncoder
 SMDRGBLED
 TLE2426
+Coin_Cell_20mm_SMD
+PiezoBuzzer
+SlidingSwitch
 $EndINDEX
 $MODULE 6N137
 Po 0 0 0 15 53ED73F7 00000000 ~~
@@ -335,4 +338,108 @@ Ne 0 ""
 Po -1.90246 -2.74828
 $EndPAD
 $EndMODULE TLE2426
+$MODULE Coin_Cell_20mm_SMD
+Po 0 0 0 15 531521AD 00000000 ~~
+Li Coin_Cell_20mm_SMD
+Sc 0
+AR 
+Op 0 0 0
+T0 0.5 -2 1 1 0 0.15 N V 21 N "Coin_Cell_20mm_SMD"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DC -0.5 0 9 0 0.15 21
+$PAD
+Sh "1" R 2.54 5.08 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11 0
+$EndPAD
+$PAD
+Sh "1" R 2.54 5.08 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 10 -0.5
+$EndPAD
+$PAD
+Sh "2" C 5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 0
+$EndPAD
+$EndMODULE Coin_Cell_20mm_SMD
+$MODULE PiezoBuzzer
+Po 0 0 0 15 5333C4E4 00000000 ~~
+Li PiezoBuzzer
+Kw Piezo
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "Piezo Buzzer"
+T1 0 2.54 1 1 0 0.15 N V 21 N "VAL"
+DC 0 0 6 0 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$EndMODULE PiezoBuzzer
+$MODULE SlidingSwitch
+Po 0 0 0 15 5333C09D 00000000 ~~
+Li SlidingSwitch
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 1 1 0 0.15 N V 21 N "SlidingSwitch"
+T1 0 2.54 1 1 0 0.15 N V 21 N "VAL**"
+DS -7.5 -1.5 7.5 -1.5 0.15 21
+DS 7.5 -1.5 7.5 1.5 0.15 21
+DS 7.5 1.5 -7.5 1.5 0.15 21
+DS -7.5 1.5 -7.5 -1.5 0.15 21
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6 0
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6 0
+$EndPAD
+$EndMODULE SlidingSwitch
 $EndLIBRARY
