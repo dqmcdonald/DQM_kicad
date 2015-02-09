@@ -1,10 +1,12 @@
-PCBNEW-LibModule-V1  Friday, 16 January 2015 21:09:05
+PCBNEW-LibModule-V1  Monday, 09 February 2015 11:48:56
 # encoding utf-8
 Units mm
 $INDEX
+3MMMountingHole
 6N137
 ARDUINO_HALF_SHIELD
 Coin_Cell_20mm_SMD
+LED10mm
 MC33269
 MCP4922
 MMS_LOGO
@@ -15,6 +17,22 @@ SlidingSwitch
 TLE2426
 sot23
 $EndINDEX
+$MODULE 3MMMountingHole
+Po 0 0 0 15 54D7E7D5 00000000 ~~
+Li 3MMMountingHole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N ""
+T1 0 0 1 1 0 0.15 N V 21 N ""
+$PAD
+Sh "1" C 3.5 3.5 0 0 0
+Dr 3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.04 0.99
+$EndPAD
+$EndMODULE 3MMMountingHole
 $MODULE 6N137
 Po 0 0 0 15 53F45728 00000000 ~~
 Li 6N137
@@ -213,6 +231,41 @@ Ne 0 ""
 Po -0.5 0
 $EndPAD
 $EndMODULE Coin_Cell_20mm_SMD
+$MODULE LED10mm
+Po 0 0 0 15 54D7E402 00000000 ~~
+Li LED10mm
+Cd Led verticale diam 6mm
+Kw LED DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0.28 -5.81 1.524 1.524 0 0.3048 N V 21 N "LED10mm"
+T1 0.67 -2.28 1.524 1.524 0 0.3048 N I 21 N "D***"
+DS 4.91 -0.78 4.07 -0.78 0.15 21
+DS 4.07 -0.78 4.07 0.79 0.15 21
+DS 4.07 0.79 4.93 0.79 0.15 21
+DC 0 0.02 5 0.05 0.15 21
+$PAD
+Sh "1" R 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.397 1.397 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$SHAPE3D
+Na "discret/led5_vertical.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE LED10mm
 $MODULE MC33269
 Po 0 0 0 15 53EB29B8 00000000 ~~
 Li MC33269
