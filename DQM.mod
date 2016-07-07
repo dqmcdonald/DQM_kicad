@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tuesday, 05 July 2016 14:44:39
+PCBNEW-LibModule-V1  Thursday, 07 July 2016 14:19:53
 # encoding utf-8
 Units mm
 $INDEX
@@ -17,6 +17,8 @@ RGBRotaryEncoder
 SMDRGBLED
 SlidingSwitch
 TLE2426
+TwinScrewTerminal
+pChannelMostfetSot23
 sot23
 $EndINDEX
 $MODULE 3MMMountingHole
@@ -1110,6 +1112,87 @@ Ne 0 ""
 Po -1.90246 -2.74828
 $EndPAD
 $EndMODULE TLE2426
+$MODULE TwinScrewTerminal
+Po 0 0 0 15 577DBB3B 00000000 ~~
+Li TwinScrewTerminal
+Cd Connecteur 3 pins
+Kw CONN DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0.254 -2.159 1.016 1.016 0 0.1524 N V 21 N "2xScrewTerminal"
+T1 0 -2.159 1.016 1.016 0 0.1524 N I 21 N "Val**"
+DS -3.81 1.27 -3.81 -1.27 0.1524 21
+DS -3.81 -1.27 3.81 -1.27 0.1524 21
+DS 3.81 -1.27 3.81 1.27 0.1524 21
+DS 3.81 1.27 -3.81 1.27 0.1524 21
+DS -1.27 -1.27 -1.27 1.27 0.1524 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE TwinScrewTerminal
+$MODULE pChannelMostfetSot23
+Po 0 0 0 15 577DBC45 00000000 ~~
+Li pChannelMostfetSot23
+Cd SOT23
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 0 0.50038 0.50038 0 0.09906 N V 21 N "pMosfetSOT23"
+T1 0 0.09906 0.50038 0.50038 0 0.09906 N I 21 N "Q***"
+DS 0.9525 0.6985 0.9525 1.3589 0.127 21
+DS -0.9525 0.6985 -0.9525 1.3589 0.127 21
+DS 0 -0.6985 0 -1.3589 0.127 21
+DS -1.4986 -0.6985 1.4986 -0.6985 0.127 21
+DS 1.4986 -0.6985 1.4986 0.6985 0.127 21
+DS 1.4986 0.6985 -1.4986 0.6985 0.127 21
+DS -1.4986 0.6985 -1.4986 -0.6985 0.127 21
+$PAD
+Sh "G" R 0.59944 1.50076 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.9525 1.30664
+$EndPAD
+$PAD
+Sh "D" R 0.59944 1.50076 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.30664
+$EndPAD
+$PAD
+Sh "S" R 0.59944 1.50076 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.9525 1.30664
+$EndPAD
+$SHAPE3D
+Na "smd/smd_transistors/sot23.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pChannelMostfetSot23
 $MODULE sot23
 Po 0 0 0 15 53FAF675 00000000 ~~
 Li sot23
