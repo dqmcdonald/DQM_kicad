@@ -1,0 +1,136 @@
+(footprint "LED10mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Led verticale diam 6mm")
+	(tags "LED DEV")
+	(property "Reference" "LED10mm"
+		(at 0.28 -5.81 0)
+		(layer "F.SilkS")
+		(uuid "84a6af34-e25a-4780-a232-eedfac5b7467")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Value" "D***"
+		(at 0.67 -2.28 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3657b6bd-fdc8-43f3-aea6-782b7cb95409")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4db42607-ae0a-4962-86dd-a939e0e439aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc2e4766-23ef-4b68-b299-a67145c22795")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc078d63-1774-471b-b2e5-cb5799b6c6fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 4.07 -0.78)
+		(end 4.07 0.79)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bc3926e-4ac4-41db-a682-9da5d26ac983")
+	)
+	(fp_line
+		(start 4.07 0.79)
+		(end 4.93 0.79)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fac94e1c-cc43-462d-b072-e17550805b1b")
+	)
+	(fp_line
+		(start 4.91 -0.78)
+		(end 4.07 -0.78)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a65adcd8-7859-4c23-bd60-956b70b0f08d")
+	)
+	(fp_circle
+		(center 0 0.02)
+		(end 5 0.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3b9ed510-dc7a-4ea7-bf50-e5447c9ccedf")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "2ab1a630-e456-4e3a-8952-177e4227757a")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "f922af05-f533-4d9b-b9e0-a2e6d6da0ad4")
+	)
+	(model "discret/led5_vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
