@@ -1,0 +1,126 @@
+(footprint "3MM Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1 pin")
+	(tags "CONN DEV")
+	(property "Reference" "3MMPad"
+		(at 0.2 4.1 0)
+		(layer "F.SilkS")
+		(uuid "25d68759-b3ec-4054-9bf6-6b466457a778")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.5 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "35c470f7-7a1e-4fef-b91c-1448be367b77")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ae2ae83-7bd0-4a71-97ac-8121646e61a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7504558a-32dd-4640-8f14-7e552b5e2593")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32385313-5e05-42a1-847d-85b63aa14369")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0be73d86-de02-4c15-aa4c-63b447c079f4")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "147b4f80-961f-47aa-8209-2c5ab5266c59")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78b912a3-9921-4d91-99b5-b6b9c279e307")
+	)
+	(fp_line
+		(start 1.27 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a08c9770-c2bc-4e14-b0ba-6ef0d27910c2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.002856 7.002856)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e28a171-f20e-4ca9-a274-d28aa697da5f")
+	)
+	(model "pin_array\\pin_1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
