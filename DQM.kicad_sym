@@ -1455,8 +1455,8 @@
 		)
 		(symbol "ArduinoSeqBus_1_1"
 			(rectangle
-				(start -36.83 31.75)
-				(end -44.45 -43.18)
+				(start -25.4 31.75)
+				(end -33.02 -43.18)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1466,8 +1466,8 @@
 				)
 			)
 			(rectangle
-				(start 30.48 30.48)
-				(end 38.1 -44.45)
+				(start 24.13 31.75)
+				(end 31.75 -43.18)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1477,7 +1477,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 29.21 180)
+				(at -22.86 29.21 180)
 				(length 2.54)
 				(name "V+"
 					(effects
@@ -1495,7 +1495,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 25.4 180)
+				(at -22.86 25.4 180)
 				(length 2.54)
 				(name "V-"
 					(effects
@@ -1513,7 +1513,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 22.86 180)
+				(at -22.86 22.86 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1531,7 +1531,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 20.32 180)
+				(at -22.86 20.32 180)
 				(length 2.54)
 				(name "Gate1"
 					(effects
@@ -1549,7 +1549,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 16.51 180)
+				(at -22.86 16.51 180)
 				(length 2.54)
 				(name "Gate2"
 					(effects
@@ -1567,7 +1567,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 12.7 180)
+				(at -22.86 12.7 180)
 				(length 2.54)
 				(name "Gate3"
 					(effects
@@ -1585,7 +1585,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 8.89 180)
+				(at -22.86 8.89 180)
 				(length 2.54)
 				(name "Out1"
 					(effects
@@ -1603,7 +1603,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 5.08 180)
+				(at -22.86 5.08 180)
 				(length 2.54)
 				(name "Out2"
 					(effects
@@ -1621,7 +1621,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 1.27 180)
+				(at -22.86 1.27 180)
 				(length 2.54)
 				(name "Out3"
 					(effects
@@ -1639,7 +1639,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -2.54 180)
+				(at -22.86 -2.54 180)
 				(length 2.54)
 				(name "CV1"
 					(effects
@@ -1657,7 +1657,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -6.35 180)
+				(at -22.86 -6.35 180)
 				(length 2.54)
 				(name "CV2"
 					(effects
@@ -1675,7 +1675,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -10.16 180)
+				(at -22.86 -10.16 180)
 				(length 2.54)
 				(name "CV3"
 					(effects
@@ -1693,7 +1693,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -13.97 180)
+				(at -22.86 -13.97 180)
 				(length 2.54)
 				(name "CV4"
 					(effects
@@ -1711,7 +1711,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -17.78 180)
+				(at -22.86 -17.78 180)
 				(length 2.54)
 				(name "CV5"
 					(effects
@@ -1729,7 +1729,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -21.59 180)
+				(at -22.86 -21.59 180)
 				(length 2.54)
 				(name "CV6"
 					(effects
@@ -1747,7 +1747,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -25.4 180)
+				(at -22.86 -25.4 180)
 				(length 2.54)
 				(name "CV7"
 					(effects
@@ -1765,7 +1765,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -29.21 180)
+				(at -22.86 -29.21 180)
 				(length 2.54)
 				(name "CV8"
 					(effects
@@ -1783,7 +1783,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -33.02 180)
+				(at -22.86 -33.02 180)
 				(length 2.54)
 				(name "CV9"
 					(effects
@@ -1801,7 +1801,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -36.83 180)
+				(at -22.86 -36.83 180)
 				(length 2.54)
 				(name "Spare1"
 					(effects
@@ -1819,7 +1819,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -40.64 180)
+				(at -22.86 -40.64 180)
 				(length 2.54)
 				(name "Spare2"
 					(effects
@@ -1837,7 +1837,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 27.94 0)
+				(at 21.59 29.21 0)
 				(length 2.54)
 				(name "V+"
 					(effects
@@ -1855,7 +1855,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 24.13 0)
+				(at 21.59 25.4 0)
 				(length 2.54)
 				(name "V-"
 					(effects
@@ -1873,7 +1873,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 21.59 0)
+				(at 21.59 22.86 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1891,7 +1891,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 19.05 0)
+				(at 21.59 20.32 0)
 				(length 2.54)
 				(name "Gate1"
 					(effects
@@ -1909,7 +1909,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 15.24 0)
+				(at 21.59 16.51 0)
 				(length 2.54)
 				(name "Gate2"
 					(effects
@@ -1927,7 +1927,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 11.43 0)
+				(at 21.59 12.7 0)
 				(length 2.54)
 				(name "Gate3"
 					(effects
@@ -1945,7 +1945,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 7.62 0)
+				(at 21.59 8.89 0)
 				(length 2.54)
 				(name "Out1"
 					(effects
@@ -1963,7 +1963,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 3.81 0)
+				(at 21.59 5.08 0)
 				(length 2.54)
 				(name "Out2"
 					(effects
@@ -1981,7 +1981,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 0 0)
+				(at 21.59 1.27 0)
 				(length 2.54)
 				(name "Out3"
 					(effects
@@ -1999,7 +1999,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -3.81 0)
+				(at 21.59 -2.54 0)
 				(length 2.54)
 				(name "CV1"
 					(effects
@@ -2017,7 +2017,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -7.62 0)
+				(at 21.59 -6.35 0)
 				(length 2.54)
 				(name "CV2"
 					(effects
@@ -2035,7 +2035,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -11.43 0)
+				(at 21.59 -10.16 0)
 				(length 2.54)
 				(name "CV3"
 					(effects
@@ -2053,7 +2053,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -15.24 0)
+				(at 21.59 -13.97 0)
 				(length 2.54)
 				(name "CV4"
 					(effects
@@ -2071,7 +2071,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -19.05 0)
+				(at 21.59 -17.78 0)
 				(length 2.54)
 				(name "CV5"
 					(effects
@@ -2089,7 +2089,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -22.86 0)
+				(at 21.59 -21.59 0)
 				(length 2.54)
 				(name "CV6"
 					(effects
@@ -2107,7 +2107,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -26.67 0)
+				(at 21.59 -25.4 0)
 				(length 2.54)
 				(name "CV7"
 					(effects
@@ -2125,7 +2125,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -30.48 0)
+				(at 21.59 -29.21 0)
 				(length 2.54)
 				(name "CV8"
 					(effects
@@ -2143,7 +2143,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -34.29 0)
+				(at 21.59 -33.02 0)
 				(length 2.54)
 				(name "CV9"
 					(effects
@@ -2161,7 +2161,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -38.1 0)
+				(at 21.59 -36.83 0)
 				(length 2.54)
 				(name "Spare1"
 					(effects
@@ -2179,7 +2179,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -41.91 0)
+				(at 21.59 -40.64 0)
 				(length 2.54)
 				(name "Spare2"
 					(effects
